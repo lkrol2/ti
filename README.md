@@ -1,4 +1,9 @@
-ti
-==
+# Notatki do TechnologiiTechnologie Internetowych
 
-notatki PSPI Technologie Internetowe
+Znaczniki:
+
+* p
+* ul, ol
+ * li
+* img
+* h
