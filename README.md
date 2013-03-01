@@ -31,10 +31,12 @@ Szablon pliku HTML5:
 </body>
 </html>
 ```
-* **ola**      wpisać na początku i na mońcu dwie *
-* _ola_        wpisać na początku i na mońcu jeden _
-* __ola__      wpisać na początku i na mońcu dwa _
-* ___ola___    wpisać na początku i na mońcu  trzy _
+***
+
+* **bold**      wpisać na początku i na mońcu dwie * 
+* _italic_        wpisać na początku i na mońcu jeden _
+* __bold__      wpisać na początku i na mońcu dwa _
+* ___bold + italic___    wpisać na początku i na mońcu  trzy _
 
  **Jarosław Gowin**doskonale wie, __będąc__ w _polityce_ ___od dawna___, <br>że nie ma w polityce 
  czegoś takiego jak zupełnie zamknięte drzwi. <br>Nasze drzwi nie są zupełnie zamknięte - powiedział 
@@ -42,10 +44,12 @@ Szablon pliku HTML5:
  że jego partia jest gotowa "na rozmowy o zmianie władzy<br> w Polsce właściwie z każdym". - Na rozmowy 
  dla rozmów i przepychanki szkoda czasu - dodał.
  
+ * * *
+ 
  Link
  
  [wikipedia](http://www.wikipedia.org/)
- 
+ ***
  obrazek
 
 ![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)
