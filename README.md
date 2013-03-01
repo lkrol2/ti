@@ -1,5 +1,14 @@
 # Notatki do TechnologiiTechnologie Internetowych
 
+<blockquote>
+<p>Dzień bez kodowania jest dniem straconym<br>
+<p>Włodek Bzdyl
+</blockquote>
+
+> Dzień bez kodowania jest dniem straconym
+>
+> Włodek Bzdyl
+
 Znaczniki:
 
 * p
