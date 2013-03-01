@@ -46,10 +46,16 @@ Szablon pliku HTML5:
  
  * * *
  
- Link
+ link
  
  [wikipedia](http://www.wikipedia.org/)
+ 
  ***
  obrazek
 
 ![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)
+
+***
+obrazek jako link
+
+ [![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)](http://www.wikipedia.org/)
