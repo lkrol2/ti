@@ -1,4 +1,4 @@
-# Notatki do TechnologiiTechnologie Internetowych
+# Notatki do Technologii Internetowych
 
 <blockquote>
 <p>Dzień bez kodowania jest dniem straconym<br>
