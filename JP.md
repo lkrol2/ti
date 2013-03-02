@@ -16,7 +16,7 @@ int main(){
  return 0;
 }
 ```
-będzie błąd przy mnożeniu
+będzie błąd przy dzieleniu
 
 ```c
 #include <stdio.h>
