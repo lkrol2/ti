@@ -1,6 +1,6 @@
 # JP
 
-<a href='https://github.com/p0j0/jp/blob/master/2III.md' target='_blank'><span style='color:blue'>calosc materialu z zajec z 2 III 2013 przeniesiona tu</span></a>
+<b>Calosc materialu z zajec jezykow programowania z 2 III 2013 przeniesiona tu: <a href='https://github.com/p0j0/jp/blob/master/2III.md' target='_blank'><span style='color:blue'>Link</span></a></b>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ZAJECIA 1
 
 ```c
