@@ -1,5 +1,6 @@
 # JP
 
+<a href='' target='_blank'><span style='color:blue'>calosc rzeniesiona tu</span></a>
 ZAJECIA 1
 
 ```c
