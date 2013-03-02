@@ -165,3 +165,80 @@ int main(){
 }
 ```
 Obwód i pole kola z innym opisem
+
+```c
+#include <stdio.h>
+int main(){
+int fahr, celsius;
+int lower, upper, step;
+lower=0;
+upper=300;
+step=20;
+fahr=lower;
+while (fahr<=upper){
+      celsius=5*(fahr-32)/9;
+      printf("%d\t %d\n", fahr, celsius);
+      fahr=fahr+step;
+                     }
+ getchar();
+
+ return 0;
+}
+```
+zastosowanie while, zamiana stopni F na C od 0 do 300 co 20 F jako cakowite
+
+```c
+#include <stdio.h>
+int main(){
+double fahr, celsius;
+int lower, upper, step;
+lower=0;
+upper=50;
+step=1;
+fahr=lower;
+while (fahr<=upper){
+      celsius=5*(fahr-32)/9;
+      printf("%.1lf\t %.1lf\n", fahr, celsius);
+      fahr=fahr+step;
+                     }
+ getchar();
+
+ return 0;
+}
+```
+Zastosowanie while. Zamiana stopni F na C od 0 do 50 ale wynik z dokladnocia do jednej po przecinku, <br>czyli zamieniamy int na double i %d na %lf
+
+```c
+#include <stdio.h>
+int main(){
+double fahr, celsius;
+int lower, upper, step;
+lower=0;
+upper=50;
+step=1;
+fahr=lower;
+while (fahr<=upper){
+      celsius=5*(fahr-32)/9;
+      printf("%5.1lf\t %7.1lf\n", fahr, celsius);
+      fahr=fahr+step;
+                     }
+ getchar();
+ return 0;
+}
+```
+Zastosowanie while, to samo ale ladnie wyswietli przecinki jeden pod drugim
+
+```c
+#include <stdio.h>
+#define LOWER 0
+#define UPPER 300
+#define STEP 0
+int main(){
+int fahr, ;
+for(fahr=LOWER; fahr<=UPPER; fahr=fahr+STEP)
+printf("%3d %6.1lf\n", fahr,(5.0/9.0)*(fahr-32.0));
+ getchar();
+ return 0;
+}
+```
+zastosowanie for do poprzedniego przykladu #define LOWER 0  i przy #define STEP 0 daje niekonczaca sie petle i żeby wyjsc to ctrl+c<br> zmiana STEP na np. 20 daje normalna petle 
