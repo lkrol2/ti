@@ -295,3 +295,19 @@ int j;
 }
 ```
 Petla for. Trojkat  - choinka o zadeklarowanej liczbie wierszy 
+
+```c
+#include <stdio.h>
+int main()
+{
+int i;
+i=0;
+ for( i=0; i<24; i++)
+ {
+      printf ("%d\n", i);
+ }
+ getchar(); getchar();
+ return 0;
+}
+```
+Petla for. Wyswietl liczby od 0 do 23
