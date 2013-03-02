@@ -345,3 +345,21 @@ do
 } 
 ```
 Petla wdo-while. Wyswietl liczby od 0 do 23
+
+```c
+#include <stdio.h>
+int main()
+{
+double i,n;
+i=-3.5;
+n=7.5;
+do
+  { printf ("%.1lf\n", i);
+  i=i+0.5;
+  }
+  while (i<=n);
+ getchar(); getchar();
+ return 0;
+} 
+```
+Petla do-while. Wypisz liczby od - 3.5 do 7.5 z krokiem co 0.5 za pomoca petli do-while.
