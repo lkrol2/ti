@@ -1,7 +1,7 @@
 # JP
 
-<a href='' target='_blank'><span style='color:blue'>calosc rzeniesiona tu</span></a>
-ZAJECIA 1
+<a href='https://github.com/p0j0/jp/blob/master/2III.md' target='_blank'><span style='color:blue'>calosc przeniesiona tu</span></a>
+<br>ZAJECIA 1
 
 ```c
 #include <stdio.h>
