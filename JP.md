@@ -1,7 +1,7 @@
 # JP
 
-<a href='https://github.com/p0j0/jp/blob/master/2III.md' target='_blank'><span style='color:blue'>calosc przeniesiona tu</span></a>
-<br>ZAJECIA 1
+<a href='https://github.com/p0j0/jp/blob/master/2III.md' target='_blank'><span style='color:blue'>calosc materialu z zajec z 2 III 2013 przeniesiona tu</span></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ZAJECIA 1
 
 ```c
 #include <stdio.h>
