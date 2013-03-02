@@ -269,4 +269,29 @@ do
  return 0;
 }
 ```
-Program do obliczania n-tego wyrazu (Un) ciagu Fibonacciego, Petla do-while 253-257
+Petla do-while 253-257. Program do obliczania n-tego wyrazu (Un) ciagu Fibonacciego
+
+```c
+#include <stdio.h>
+#define znak '*' /*znak wypelnienia*/
+int main()
+{
+int lbwier;/*calkowita liczba wierszy*/
+int lw;  /*licznik wierszy*/
+int lodst; /*liczba odstepow poprzedzajacych gwiazdke*/
+int j;
+
+  printf ("ile wierszy? ");
+   scanf ("%d", &lbwier);
+   
+   for (lw=0 ; lw<lbwier ; lw++)
+   { lodst = lbwier-lw-1;
+     for (j=0 ; j<lodst ; j++) putchar (' '); /* putchar-wstaw (' ')-puste miejsce*/
+     for (j=0 ; j<2*lw+1 ; j++) putchar (znak); /* (znak)-wstaw * */
+     putchar('\n');
+   }
+ getchar(); getchar();
+ return 0;
+}
+```
+Petla for. Trojkat  - choinka o zadeklarowanej liczbie wierszy 
