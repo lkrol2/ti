@@ -242,3 +242,33 @@ printf("%3d %6.1lf\n", fahr,(5.0/9.0)*(fahr-32.0));
 }
 ```
 zastosowanie for do poprzedniego przykladu #define LOWER 0  i przy #define STEP 0 daje niekonczaca sie petle i żeby wyjsc to ctrl+c<br> zmiana STEP na np. 20 daje normalna petle 
+
+```c
+#include <stdio.h>
+int main()
+{
+int u1, u2, u3;/*na kolejne wyrazy ciągu*/
+int n;  /*nr wyrazu*/
+int i; /*licznik*/
+do
+  { printf ("podaj numer wyrazu (co najmniej 3): ");
+   scanf ("%d", &n);
+  }
+  while (n<
+  
+  3);
+  u2=u1=1; /*dwa pierwsze wyrazy*/
+  i=2;
+  while (i++ < n) /*dziala tylko dla n>2*/
+   {u3=u1+u2;
+    u1=u2;
+    u2=u3;
+   }
+   /*inna możliwość*/
+   /*for (i=3; 1<=2; i++, u1=u2, u2=u3) u3=u1+u2; */
+   printf ("Wyraz o numerze %d ma wartość %d" , n, u3);
+ getchar(); getchar();
+ return 0;
+}
+```
+Program do obliczania n-tego wyrazu (Un) ciagu Fibonacciego
