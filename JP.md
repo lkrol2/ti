@@ -265,7 +265,7 @@ do
     u2=u3;
    }
    /*inna możliwość*/
-   /*for (i=3; 1<=2; i++, u1=u2, u2=u3) u3=u1+u2; */
+   /*for (i=3; i<=2; i++, u1=u2, u2=u3) u3=u1+u2; */
    printf ("Wyraz o numerze %d ma wartość %d" , n, u3);
  getchar(); getchar();
  return 0;
