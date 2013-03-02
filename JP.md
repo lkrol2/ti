@@ -254,12 +254,10 @@ do
   { printf ("podaj numer wyrazu (co najmniej 3): ");
    scanf ("%d", &n);
   }
-  while (n<
-  
-  3);
+  while (n<3);
   u2=u1=1; /*dwa pierwsze wyrazy*/
   i=2;
-  while (i++ < n) /*dziala tylko dla n>2*/
+  while (i++ < n) /*dziala tylko dla n>2 i++ najpierw sdprawdza i z n potem zwieksz o jeden*/
    {u3=u1+u2;
     u1=u2;
     u2=u3;
@@ -271,4 +269,4 @@ do
  return 0;
 }
 ```
-Program do obliczania n-tego wyrazu (Un) ciagu Fibonacciego
+Program do obliczania n-tego wyrazu (Un) ciagu Fibonacciego, Petla do-while 253-257
