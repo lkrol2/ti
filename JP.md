@@ -328,3 +328,20 @@ i=0;
 }
 ```
 Petla while. Wyswietl liczby od 0 do 23
+
+```c
+#include <stdio.h>
+int main()
+{
+int i,;
+i=0;
+do
+  { printf ("%d\n", i);
+  i++;
+  }
+  while (i<24);
+ getchar(); getchar();
+ return 0;
+} 
+```
+Petla wdo-while. Wyswietl liczby od 0 do 23
