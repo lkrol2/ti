@@ -1,7 +1,28 @@
+Terminal Guake<br>
+Dodawanie klucza publicznego do github.com<br>
+* Z górnej listy wejdz w Account settings
+* wybierz SSH Keys
+* wybierz Add SSH key
+* wpisz Title czyli nazwe kompa z ktorego pracujesz
+* wkopiuj klucz z treminala
+* pokaż klucz
+
 ```c
 pjakusz@p137-03:~$ ls ~/.ssh/
 known_hosts
+```
+* jeżeli nie podaje klucza trzeba uruchomić program
+
+```c
 pjakusz@p137-03:~$ ssh-keygen
+```
+podaje klucz prywatny id-rsa i publiczny id-rsa.pub
+```c
+pjakusz@p137-03:~$ ls ~/.ssh/
+id_rsa  id_rsa.pub  known_hosts
+```
+trzeba 
+```c
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/studpoz/pjakusz/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
