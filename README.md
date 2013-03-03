@@ -2,12 +2,12 @@
 
 <blockquote>
 <p>Dzień bez kodowania jest dniem straconym<br>
-<p>Włodek Bzdyl
+<p>Włodek Bzyl
 </blockquote>
 
 > Dzień bez kodowania jest dniem straconym
 >
-> Włodek Bzdyl
+> Włodek Bzyl
 
 Znaczniki:
 
