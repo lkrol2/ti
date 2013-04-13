@@ -61,11 +61,11 @@ obrazek jako link
  [![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)](http://www.wikipedia.org/)
 ***
 > **Poieranie cudzego repozytorium**<br>
-> ___Fork___ - pobranie repozytorium <br>
+> * ___Fork___ - pobranie repozytorium <br>
 > 
 > **Wysyłanie naniesionych zmian**<br>
-> ___Pull Request___ - wysyłanie zmian<br>
-> podajemy w tytule co było zrobione i wysyłamy.<br>
+> * ___Pull Request___ - wysyłanie zmian<br>
+> * podajemy w tytule co było zrobione i wysyłamy.<br>
 > 
 > **Odbieranie**
 > * wejśc do repozytorium
@@ -80,3 +80,27 @@ obrazek jako link
 > * ___Collaborators___
 > * podać nazwę użytkownika
 > * ___Add___
+
+***
+**Aby uzyskać ładne wcęcia w kodzie korzystamy z programu *indent*.**
+
+Wchodzimy na terminal i logujemy się na sigmie:
+
+```sh
+ssh akiszel@sigma.ug.edu.pl
+```
+
+Następnie wykonujemy kopiuj kod i wklej go na terminalu.
+Przykładowo:
+
+```sh
+cat > zad5.c
+... ctrl+shift+v lub wybieramy wklej z menu terminala
+CTRL+d
+```
+
+Teraz wykonujemy na terminalu:
+
+```
+indent -kr zad5.c
+``` 
