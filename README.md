@@ -61,22 +61,22 @@ obrazek jako link
  [![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)](http://www.wikipedia.org/)
 ***
 > **Poieranie cudzego repozytorium**<br>
-> __Fork__ - pobranie repozytorium <br>
+> ___Fork___ - pobranie repozytorium <br>
 > 
 > **Wysyłanie naniesionych zmian**<br>
-> ____Pull Request__ - wysyłanie zmian<br>
+> ___Pull Request___ - wysyłanie zmian<br>
 > podajemy w tytule co było zrobione i wysyłamy.<br>
 > 
 > **Odbieranie**
 > * wejśc do repozytorium
-> * wcisnąć __Pull Requests__ na pasku obok network
+> * wcisnąć ___Pull Requests___ na pasku obok network
 > * po wejściu kliknąć na tytuł
-> * __Files Changed__ - żeby zobaczyć zmiany /na zielono podaje poprawki/
+> * ___Files Changed___ - żeby zobaczyć zmiany /na zielono podaje poprawki/
 
 ***
 > **Dodawanie osób - współpracowników do repozytorium**
 > * wejść do repozytorium
-> * __Settings__ na listwie po lewej
-> * __Collaborators__
+> * ___Settings___ na listwie po lewej
+> * ___Collaborators___
 > * podać nazwę użytkownika
-> * __Add__
+> * ___Add___
