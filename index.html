@@ -31,32 +31,138 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Trudne początki</h3>
+        <h1>Notatki do Technologii Internetowych</h1>
 
-<p>Pierwsze zajęcia z technologii intenetowych
-<a href="https://github.com/p0j0/ti/blob/master/README.md">plik README</a>
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<blockquote>
+<p>Dzień bez kodowania jest dniem straconym<br></p>
+<p>Włodek Bzyl
+</p>
+</blockquote>
+
+<blockquote>
+<p>Dzień bez kodowania jest dniem straconym</p>
+
+<p>Włodek Bzyl</p>
+</blockquote>
+
+<p>Znaczniki:</p>
+
+<ul>
+<li>p</li>
+<li>ul, ol
+
+<ul>
+<li>li</li>
+</ul>
+</li>
+<li>img</li>
+<li>h</li>
+</ul><p>Szablon pliku HTML5:</p>
+
+<div class="highlight"><pre><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">pl</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">utf-8</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Szablon strony HTML5<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;p&gt;</span>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+<hr><ul>
+<li>
+<strong>bold</strong>      wpisać na początku i na końcu dwie * </li>
+<li>
+<em>italic</em>        wpisać na początku i na końcu jeden _</li>
+<li>
+<strong>bold</strong>      wpisać na początku i na końcu dwa _</li>
+<li>
+<strong><em>bold + italic</em></strong>    wpisać na początku i na końcu  trzy _</li>
+<li>
+<h1>zwiększanie czcionki  wpisać na początku #</h1>
+
+<p><strong>Jarosław Gowin</strong>doskonale wie, <strong>będąc</strong> w <em>polityce</em> <strong><em>od dawna</em></strong>, <br>że nie ma w polityce 
+czegoś takiego jak zupełnie zamknięte drzwi. <br>Nasze drzwi nie są zupełnie zamknięte - powiedział 
+rzecznik PiS. <br>Dopytywany, czy Prawo i Sprawiedliwość podjęłoby rozmowy z Gowinem, <br>Hofman odparł, 
+że jego partia jest gotowa "na rozmowy o zmianie władzy<br> w Polsce właściwie z każdym". - Na rozmowy 
+dla rozmów i przepychanki szkoda czasu - dodał.</p>
+
+<hr>
+<p>link</p>
+
+<p><a href="http://www.wikipedia.org/">wikipedia</a></p>
+
+<hr>
+<p>obrazek</p>
+</li>
+</ul><p><img src="http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="logo Wiki"></p>
+
+<hr><p>obrazek jako link</p>
+
+<p><a href="http://www.wikipedia.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="logo Wiki"></a></p>
+
+<hr><blockquote>
+<p><strong>Poieranie cudzego repozytorium</strong><br></p>
+
+<ul>
+<li>
+<strong><em>Fork</em></strong> - pobranie repozytorium <br>
+</li>
+</ul>
+<p><strong>Wysyłanie naniesionych zmian</strong><br></p>
+
+<ul>
+<li>
+<strong><em>Pull Request</em></strong> - wysyłanie zmian<br>
+</li>
+<li>podajemy w tytule co było zrobione i wysyłamy.<br>
+</li>
+</ul>
+<p><strong>Odbieranie</strong></p>
+
+<ul>
+<li>wejśc do repozytorium</li>
+<li>wcisnąć <strong><em>Pull Requests</em></strong> na pasku obok network</li>
+<li>po wejściu kliknąć na tytuł</li>
+<li>
+<strong><em>Files Changed</em></strong> - żeby zobaczyć zmiany /na zielono podaje poprawki/</li>
+</ul>
+</blockquote>
+
+<hr><blockquote>
+<p><strong>Dodawanie osób - współpracowników do repozytorium</strong></p>
+
+<ul>
+<li>wejść do repozytorium</li>
+<li>
+<strong><em>Settings</em></strong> na listwie po lewej</li>
+<li><strong><em>Collaborators</em></strong></li>
+<li>podać nazwę użytkownika</li>
+<li><strong><em>Add</em></strong></li>
+</ul>
+</blockquote>
+
+<hr><p><strong>Aby uzyskać ładne wcęcia w kodzie korzystamy z programu <em>indent</em>.</strong></p>
+
+<p>Wchodzimy na terminal i logujemy się na sigmie:</p>
+
+<div class="highlight"><pre>ssh akiszel@sigma.ug.edu.pl
+</pre></div>
+
+<p>Następnie wykonujemy kopiuj kod i wklej go na terminalu.
+Przykładowo:</p>
+
+<div class="highlight"><pre>cat &gt; zad5.c
+... ctrl+shift+v lub wybieramy wklej z menu terminala
+CTRL+d
+</pre></div>
+
+<p>Teraz wykonujemy na terminalu:</p>
+
+<pre><code>indent -kr zad5.c
 </code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
     </div>
 
