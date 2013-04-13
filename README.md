@@ -33,11 +33,11 @@ Szablon pliku HTML5:
 ```
 ***
 
-* **bold**      wpisać na początku i na mońcu dwie * 
-* _italic_        wpisać na początku i na mońcu jeden _
-* __bold__      wpisać na początku i na mońcu dwa _
-* ___bold + italic___    wpisać na początku i na mońcu  trzy _
-
+* **bold**      wpisać na początku i na końcu dwie * 
+* _italic_        wpisać na początku i na końcu jeden _
+* __bold__      wpisać na początku i na końcu dwa _
+* ___bold + italic___    wpisać na początku i na końcu  trzy _
+* #zwiększanie czcionki  <quote>wpisać na początku #</quote>
  **Jarosław Gowin**doskonale wie, __będąc__ w _polityce_ ___od dawna___, <br>że nie ma w polityce 
  czegoś takiego jak zupełnie zamknięte drzwi. <br>Nasze drzwi nie są zupełnie zamknięte - powiedział 
  rzecznik PiS. <br>Dopytywany, czy Prawo i Sprawiedliwość podjęłoby rozmowy z Gowinem, <br>Hofman odparł, 
@@ -60,7 +60,14 @@ obrazek jako link
 
  [![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)](http://www.wikipedia.org/)
 ***
-Fork pobranie repozytorium
-Pull Request /wciskamy/ 
-wysyłanie zmian
-podajemy wtytule co było zrobione
+Fork - pobranie repozytorium <br>
+Pull Request - wysyłanie zmian<br>
+podajemy w tytule co było zrobione i wysyłamy.
+
+
+**Odbieranie**
+* wejśc do repozytorium
+* wcisnąć Pull Requests na pasku obok network
+* po wejściu kliknąć na tytuł
+* Files Changed - żeby zobaczyć zmiany /na zielono podaje poprawki/
+
