@@ -59,3 +59,8 @@ Szablon pliku HTML5:
 obrazek jako link
 
  [![logo Wiki](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png)](http://www.wikipedia.org/)
+***
+Fork pobranie repozytorium
+Pull Request /wciskamy/ 
+wysyłanie zmian
+podajemy wtytule co było zrobione
